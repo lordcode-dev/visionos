@@ -1,0 +1,12 @@
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f3f6fd;color:#111;}
+.center{display:flex;justify-content:center;align-items:center;height:100vh;}
+#login-box{background:#fff;padding:40px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.1)}
+#login-box input{display:block;margin:10px 0;padding:10px;width:250px;border:1px solid #ccc;border-radius:6px}
+#login-box button{width:270px;padding:10px;margin-top:10px;border:none;border-radius:6px;background:#2563eb;color:#fff}
+.secondary{background:#6b7280}
+nav{display:flex;justify-content:space-between;align-items:center;padding:10px 20px;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.05)}
+.logo{font-weight:600;font-size:20px}
+#widgets{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;padding:20px}
+.widget{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.widget h2{margin-top:0}
+.terminal{background:#000;color:#0f0;font-family:monospace;height:200px;overflow:auto;padding:10px;border-radius:6px;margin-bottom:8px}
