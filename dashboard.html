@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VisionOS Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <span class="logo">VisionOS</span>
+  </nav>
+
+  <section id="widgets">
+    <!-- Smart Tutor -->
+    <div class="widget">
+      <h2>Smart Tutor</h2>
+      <input id="query" placeholder="Ask e.g. teach me HTML" />
+      <button id="ask">Go</button>
+      <ul id="results"></ul>
+    </div>
+
+    <!-- Terminal -->
+    <div class="widget">
+      <h2>Terminal</h2>
+      <div id="terminal" class="terminal"></div>
+      <input id="cmd" placeholder="type help" />
+    </div>
+  </section>
+
+  <script src="js/tutor.js"></script>
+  <script src="js/terminal.js"></script>
+</body>
+</html>
 
