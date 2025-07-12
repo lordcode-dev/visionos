@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>VisionOS – Secure Login</title>
+  <title>VisionOS – Login</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="center">
   <div id="login-box">
     <h1>🔐 VisionOS</h1>
-    <input id="pw" type="password" placeholder="Enter access password" />
+    <input id="pw" type="password" placeholder="Enter password" />
     <button id="unlock">Unlock</button>
   </div>
   <script>
     document.getElementById('unlock').onclick = () => {
       if (document.getElementById('pw').value === 'qwertyuiop') {
-        location.href = 'login.html';
+        location.href = 'dashboard.html';
       } else {
         alert('Wrong password');
       }
